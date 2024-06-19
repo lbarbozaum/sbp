@@ -1,0 +1,29 @@
+Package: sbp
+Title: Simple Biostats Program
+Version: 0.0.0.9000
+Authors@R: 
+    person("Stan", "Pounds", , "stanley.pounds@stjude.org", role = c("aut", "cre"))
+Description: Provides high level wrapper functions for basic statistics tasks.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cmprsk,
+    data.table,
+    DescTools,
+    graphics,
+    grDevices,
+    knitr,
+    lawstat,
+    methods,
+    readxl,
+    robustbase,
+    stats,
+    survival,
+    utils
+Suggests: 
+    rmarkdown,
+    penalized,
+    riskRegression
+VignetteBuilder: knitr
